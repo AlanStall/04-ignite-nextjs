@@ -1,34 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2>04-ignite-react: nextjs</h2>
 
-## Getting Started
+### Project made by the Rocketseat Ignite React.js course, adapted for Next.js 13 and TailwindCSS.
 
-First, run the development server:
+#### T-shirt store. Context: choice of t-shirt until the final purchase page.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div align="center">
+  <img src="https://private-user-images.githubusercontent.com/105830370/252160546-671b75c1-c0b1-4ec4-ad79-e54eb5046358.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg4OTI1NDI1LCJuYmYiOjE2ODg5MjUxMjUsInBhdGgiOiIvMTA1ODMwMzcwLzI1MjE2MDU0Ni02NzFiNzVjMS1jMGIxLTRlYzQtYWQ3OS1lNTRlYjUwNDYzNTgucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDcwOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA3MDlUMTc1MjA1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MDIxODAzNTFkZmI4MWE4NmMyYTZmZDg3YmNmMDk1NjBkOTQ4YTEyMzYzNzg1NzU1NWVmMGM4YTk5NzBkNGJjNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.t53VxAx7mt1VMxRKX_EdsxylR6t865rm4_lWYQ3nbiY" width="500"/>
+  <img src="https://private-user-images.githubusercontent.com/105830370/252160625-b3b1c354-1280-438f-afd4-104144313c75.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg4OTI1NDI1LCJuYmYiOjE2ODg5MjUxMjUsInBhdGgiOiIvMTA1ODMwMzcwLzI1MjE2MDYyNS1iM2IxYzM1NC0xMjgwLTQzOGYtYWZkNC0xMDQxNDQzMTNjNzUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDcwOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA3MDlUMTc1MjA1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YmY5ZjZkMDYwZWQ0MGNjNGQ0ZmFjNWUzY2YyMGFjYTcyZjg3OWI5MmY2MzVkY2NkNjE5ZmZjMjVjYTQzMGU0ZSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.ydH6ghqiTuiWoYKniAcZobdra3Oipyjd-GcStc0ACps" width="250"/>
+  <img src="https://private-user-images.githubusercontent.com/105830370/252160672-65a56e08-4d7f-412d-81cf-7f9b0e5f8bb6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg4OTI1NDI1LCJuYmYiOjE2ODg5MjUxMjUsInBhdGgiOiIvMTA1ODMwMzcwLzI1MjE2MDY3Mi02NWE1NmUwOC00ZDdmLTQxMmQtODFjZi03ZjliMGU1ZjhiYjYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDcwOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA3MDlUMTc1MjA1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NWZiMWUyNTRjZjFhMzRlNGNlZmZmZWZhOGQ5OTEzMGMyNWFlNzA2NmRhOGMwOTQ2N2I5YzhlY2I1NWIzNmEyOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.iIPHcuVctzZroKWJdPd5AWKu5CsRCwMnuQX-nAGYciU" width="250"/>
+</div>
